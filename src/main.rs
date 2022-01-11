@@ -17,8 +17,6 @@ mod prelude {
 
 use prelude::*;
 
-use bracket_lib::prelude::*;
-
 struct State {
     map: Map,
     player: Player,
