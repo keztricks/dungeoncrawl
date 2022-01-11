@@ -22,6 +22,7 @@ use bracket_lib::prelude::*;
 struct State {
     map: Map,
     player: Player,
+    camera: Camera,
 }
 
 impl State {
@@ -31,6 +32,7 @@ impl State {
         Self {
             map: map_builder.map,
             player: Player::new(map_builder.player_start),
+            camera: Camera::new(map_builder.player_start),
         }
     }
 }
