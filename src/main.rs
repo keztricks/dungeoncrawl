@@ -3,6 +3,7 @@ mod components;
 mod map;
 mod map_builder;
 mod spawner;
+mod systems;
 
 mod prelude {
     pub use bracket_lib::prelude::*;
@@ -18,6 +19,7 @@ mod prelude {
     pub use crate::map::*;
     pub use crate::map_builder::*;
     pub use crate::spawner::*;
+    pub use crate::systems::*;
 }
 
 use prelude::*;
