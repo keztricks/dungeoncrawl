@@ -19,8 +19,9 @@ mod prelude {
 use prelude::*;
 
 struct State {
-    map: Map,
-    camera: Camera,
+    ecs: World,
+    resources: Resources,
+    systems: Schedule,
 }
 
 impl State {
