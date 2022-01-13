@@ -24,3 +24,6 @@ pub fn spawn_monster(ecs: &mut World, rng: &mut RandomNumberGenerator, pos: Poin
         },
     ));
 }
+
+#[derive(Clone, Copy, Debug, PartialEq)]
+pub struct MovingRandomly;
